@@ -6,7 +6,7 @@
 
 body{
   background:linear-gradient(to top left,rgb(231, 174, 174) ,rgb(238, 5, 5));
-  height:100vh;
+  min-height:100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,6 +146,7 @@ body{
   }
 }
 
+
 @media only screen and (max-width:900px){
   .card{
     height: 76px;
@@ -155,6 +156,9 @@ body{
     margin-bottom: 7px;
   }
   .card {
+    height: 76px;
+    width: 70px;
+  }.card::before{
     height: 76px;
     width: 70px;
   }
@@ -170,4 +174,20 @@ body{
 
 .box{
   background-color:aqua;
+}
+
+
+@media only screen and (max-width:420px) {
+  #cards {
+    max-width: 400px;
+  }#wrapper{
+    width: 100vw;
+  }
+  .header{
+    width: 100vw;
+    margin-top: 20px;
+  }
+  .pokemon{
+    padding: 5px 10px;
+  }
 }
