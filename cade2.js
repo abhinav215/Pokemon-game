@@ -63,8 +63,8 @@ function boom() {
   box.classList.add("aactive");
   document.querySelector(
     "h1.result"
-  ).innerHTML = `Congrats <br> :) <br> You Win `;
-  document.querySelector("h2.results").innerHTML = `Click to play again`;
+  ).innerHTML = `Congrats <br><span> :-) </span><br> You Win `;
+  document.querySelector("div.results").innerHTML = `Click to play again`;
 }
 
 function boom2() {
@@ -72,8 +72,8 @@ function boom2() {
   box.classList.add("aactive");
   document.querySelector(
     "h1.result"
-  ).innerHTML = `Time Up<br> :( <br> You Lose`;
-  document.querySelector("h2.results").innerHTML = `Click to play again`;
+  ).innerHTML = `Time Up <br><span> :-( <br> </span>You Lose`;
+  document.querySelector("div.results").innerHTML = `Click to play again`;
 }
 
 // uwin or game over mai ek or page which ask to replay
