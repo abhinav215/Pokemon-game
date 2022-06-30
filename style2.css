@@ -142,12 +142,6 @@ body{
   opacity:0
 }
 
-#box .result span{
-  background-color: rgb(168, 92, 37);
-  height: 100px;
-  width: 100px;
-  /* border-radius: 50%; */
-}
 
 @media only screen and (max-width:1150px){
   .card{
