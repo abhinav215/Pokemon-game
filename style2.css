@@ -184,10 +184,11 @@ body{
     width: 100vw;
   }
   .header{
-    width: 100vw;
+    width: 90vw;
     margin-top: 20px;
   }
   .pokemon{
     padding: 5px 10px;
+    font-size: 30px;
   }
 }
