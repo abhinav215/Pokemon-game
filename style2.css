@@ -119,6 +119,7 @@ body{
   content: "";
   height: 130px;
   width: 120px;
+  opacity: 0;
 }
 
 .card:hover{  
